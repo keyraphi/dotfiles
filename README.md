@@ -1,11 +1,17 @@
 # Dotfiles of keyraphi
 
 ## Neovim
-Copy the `nvim/` directory to `~/.config`.
+Create a link in your `~/.config/` directory to the nvim directory:
+```bash
+ln -s /path/to/this/nvim ~/.config/nvim
+```
 Open neovim and run `:PlugInstall`
 
 ## Kitty
-Copy the `kitty/` directory to `~/.config`
+Create a link in your `~/.config/` directory to the kitty directory:
+```bash
+ln -s /path/to/this/kitty ~/.config/kitty
+```
 
 Install the latest JetBrainsMono font to get the airline symbols:
 ```bash
