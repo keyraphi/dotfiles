@@ -31,3 +31,4 @@ ln -s /path/to/this/tmux.conf ~/.tmux.conf
 ln -s /path/to/this/tmux-cssh ~/.tmux-cssh
 ln -s /path/to/this/tmux /.tmux
 ```
+Start tmux and install plugins via `<leader>+I`(capital i).
