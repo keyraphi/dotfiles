@@ -1,0 +1,10 @@
+cluster-gpu: -sc cluster-gpu00 -sc cluster-gpu01 -sc cluster-gpu02 -sc cluster-gpu03 -sc cluster-gpu04
+compute: -sc hypericum -sc glorifolia -sc pulsatilla
+compute-all: -cs compute -cs cluster-gpu
+cluster-gpu-root: -cs cluster-gpu --user root -i ~/.ssh/id_rsa_cg_root
+compute-root: -cs compute --user root -i ~/.ssh/id_rsa_cg_root
+compute-all-root: -cs compute -cs cluster-gpu --user root -i ~/.ssh/id_rsa_cg_root
+slurm-test: -sc strychnos -sc buxus -sc dieffenbachia 
+slurm-test-root: -cs slurm-test --user root -i ~/.ssh/id_rsa_cg_root
+cgpool: -sc cgpool1900 -sc cgpool1901 -sc cgpool1902 -sc cgpool1903 -sc cgpool1904 -sc cgpool1905 -sc cgpool1906 -sc cgpool1907 -sc cgpool1908 -sc cgpool1910 -sc cgpool1911 -sc cgpool1912 -sc cgpool1913 -sc cgpool1914 -sc cgpool1915 
+cgpool-root: -cs cgpool --user root -i ~/.ssh/id_rsa_cg_root
