@@ -1,0 +1,1 @@
+Plug 'Olical/vim-enmasse'
