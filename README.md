@@ -2,6 +2,9 @@
 Clone with submodules via
 ```bash
 git clone --recurse-submodules git@github.com:keyraphi/dotfiles.git
+
+The setup uses the dracula theme, which can also be installed for
+the gnome-terminal as described [here](https://draculatheme.com/gnome-terminal).
 ```
 
 ## Neovim
