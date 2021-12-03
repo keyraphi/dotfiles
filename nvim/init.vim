@@ -32,6 +32,7 @@ set backup
 set backupdir=~/.local/share/nvim/backup//
 set updatetime=300
 set redrawtime=10000
+set cursorline
 
 "-------------------------------------------------------------------------------
 " Key maps
