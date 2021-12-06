@@ -103,7 +103,7 @@ source ~/.config/nvim/plugins/peekaboo.vim
 source ~/.config/nvim/plugins/plenary.vim
 source ~/.config/nvim/plugins/popup.vim
 source ~/.config/nvim/plugins/pyglot.vim
-source ~/.config/nvim/plugins/pipenv.vim
+" source ~/.config/nvim/plugins/pipenv.vim
 source ~/.config/nvim/plugins/quickscope.vim
 source ~/.config/nvim/plugins/repeat.vim
 source ~/.config/nvim/plugins/rooter.vim
@@ -123,7 +123,7 @@ source ~/.config/nvim/plugins/text-objects.vim
 source ~/.config/nvim/plugins/tmuxline.vim
 source ~/.config/nvim/plugins/unimpaired.vim
 source ~/.config/nvim/plugins/vimtex.vim
-source ~/.config/nvim/plugins/virtualenv.vim
+" source ~/.config/nvim/plugins/virtualenv.vim
 source ~/.config/nvim/plugins/visual-multi.vim
 source ~/.config/nvim/plugins/visual-star-search.vim
 source ~/.config/nvim/plugins/which-key.vim
