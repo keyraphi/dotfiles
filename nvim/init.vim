@@ -85,7 +85,7 @@ source ~/.config/nvim/plugins/editorconfig.vim
 source ~/.config/nvim/plugins/enmasse.vim
 source ~/.config/nvim/plugins/eunuch.vim
 source ~/.config/nvim/plugins/exchange.vim
-source ~/.config/nvim/plugins/firenvim.vim
+" source ~/.config/nvim/plugins/firenvim.vim
 source ~/.config/nvim/plugins/floatterm.vim
 source ~/.config/nvim/plugins/fugitive.vim
 source ~/.config/nvim/plugins/fzf.vim

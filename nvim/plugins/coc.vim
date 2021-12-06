@@ -11,7 +11,7 @@ let g:coc_global_extensions = [
     \ 'coc-yaml',
     \ 'coc-vimtex',
     \ 'coc-go',
-    \ 'coc-jedi',
+    \ 'coc-pyright',
     \ 'coc-css',
     \ 'coc-diagnostic',
     \ 'coc-emmet',
