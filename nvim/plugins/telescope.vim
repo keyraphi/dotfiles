@@ -1,18 +1,18 @@
 Plug 'nvim-telescope/telescope.nvim'
 
 function TelescopeSetup()
-lua << EOF
-local actions = require('telescope.actions')
-require('telescope').setup{
-  defaults = {
-    mappings = {
-      i = {
-        ["<c-x>"] = false,
-        ["<C-q>"] = actions.send_to_qflist,
-      },
-    },
-  }
-}
+    lua << EOF
+    local actions = require('telescope.actions')
+    require('telescope').setup{
+    defaults = {
+        mappings = {
+            i = {
+                ["<c-x>"] = false,
+                ["<C-q>"] = actions.send_to_qflist,
+                },
+            },
+        }
+    }
 EOF
 endfunction
 augroup TelesecopeSetup

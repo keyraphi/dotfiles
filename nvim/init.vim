@@ -55,7 +55,7 @@ noremap Y y$
 
 " Center search result
 nnoremap n nzzzv
-nnoremap N Nzzv
+nnoremap N Nzzzv
 noremap J mzJ`z
 
 " Open current file in the default program
@@ -91,6 +91,7 @@ source ~/.config/nvim/plugins/floatterm.vim
 source ~/.config/nvim/plugins/fugitive.vim
 source ~/.config/nvim/plugins/fzf.vim
 source ~/.config/nvim/plugins/heritage.vim
+source ~/.config/nvim/plugins/hop.vim
 source ~/.config/nvim/plugins/indentLine.vim
 source ~/.config/nvim/plugins/lastplace.vim
 source ~/.config/nvim/plugins/lion.vim
@@ -129,4 +130,8 @@ source ~/.config/nvim/plugins/visual-star-search.vim
 source ~/.config/nvim/plugins/which-key.vim
 call plug#end()
 doautocmd User PlugLoaded
+
+""""""""""""""" Miscellaneous """"""""""""""""""""""
+autocmd FileType help setlocal nospell
+autocmd TermOpen * setlocal nospell
 
