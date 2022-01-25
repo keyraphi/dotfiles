@@ -34,4 +34,6 @@ return require("packer").startup(function()
     use("tommcdo/vim-lion") -- alignment via 'gl<motion><character>'
     use("unblevable/quick-scope")  -- highlight convenient targets for 't' and 'f'
     use("airblade/vim-rooter")
+    use("tpope/vim-commentary")
+    use("JoosepAlviste/nvim-ts-context-commentstring")
 end)
