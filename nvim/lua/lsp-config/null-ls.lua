@@ -16,10 +16,9 @@ local sources = {
 	null_ls.builtins.formatting.pg_format,
 	null_ls.builtins.formatting.prettierd,
 	null_ls.builtins.diagnostics.write_good,
-	null_ls.builtins.diagnostics.mypy,
 	null_ls.builtins.diagnostics.gitlint,
+	null_ls.builtins.diagnostics.mypy,
 	null_ls.builtins.diagnostics.pylint,
-	null_ls.builtins.diagnostics.pydocstyle,
 }
 
 null_ls.setup({
