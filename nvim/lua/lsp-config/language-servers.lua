@@ -74,18 +74,18 @@ end
 -- float-window for diagnostics on hover
 -- You will likely want to reduce updatetime which affects CursorHold
 -- note: this setting is global and should be set only once
--- vim.o.updatetime = 250
--- vim.cmd([[autocmd CursorHold,CursorHoldI * lua vim.diagnostic.open_float(nil, {focus=false})]])
+vim.o.updatetime = 250
+vim.cmd([[autocmd CursorHold,CursorHoldI * lua vim.diagnostic.open_float(nil, {focus=false})]])
 
 -- Show source for diagnostics
--- vim.diagnostic.config({
--- 	virtual_text = {
--- 		source = false,  -- Or "if_many"
--- 	},
--- 	float = {
--- 		source = "always", -- Or "if_many"
--- 	},
--- })
+vim.diagnostic.config({
+	virtual_text = {
+		source = "always",  -- Or "if_many"
+	},
+	float = {
+		source = "always", -- Or "if_many"
+	},
+})
 -- sign separating code from virtual text
 vim.diagnostic.config({
 	virtual_text = {
