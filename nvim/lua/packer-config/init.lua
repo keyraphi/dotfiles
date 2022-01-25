@@ -28,12 +28,14 @@ return require("packer").startup(function()
 	use("jose-elias-alvarez/null-ls.nvim")
 	use("sunjon/shade.nvim")
 	use("psliwka/vim-smoothie")
+	use("tpope/vim-sensible")
+	use("tpope/vim-unimpaired")
 	use("tpope/vim-surround") -- surround stuff or remove surrounding stuff
 	use("tpope/vim-fugitive") -- git plugin
-    use("tpope/vim-repeat") -- make things like surround repeatable via "."
-    use("tommcdo/vim-lion") -- alignment via 'gl<motion><character>'
-    use("unblevable/quick-scope")  -- highlight convenient targets for 't' and 'f'
-    use("airblade/vim-rooter")
-    use("tpope/vim-commentary")
-    use("JoosepAlviste/nvim-ts-context-commentstring")
+	use("tpope/vim-repeat") -- make things like surround repeatable via "."
+	use("tommcdo/vim-lion") -- alignment via 'gl<motion><character>'
+	use("unblevable/quick-scope") -- highlight convenient targets for 't' and 'f'
+	use("airblade/vim-rooter")
+	use("tpope/vim-commentary")
+	use("JoosepAlviste/nvim-ts-context-commentstring")
 end)
