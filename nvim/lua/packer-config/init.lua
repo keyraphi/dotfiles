@@ -6,6 +6,9 @@ return require("packer").startup(function()
 	use("neovim/nvim-lspconfig") -- Collection of configurations for the built-in LSP client
 	use("hrsh7th/nvim-cmp") -- Autocompletion plugin
 	use("hrsh7th/cmp-nvim-lsp") -- LSP source for nvim-cmp
+	use("hrsh7th/cmp-buffer") -- complete words in buffer
+	use("hrsh7th/cmp-path") -- complete paths
+	use("hrsh7th/cmp-cmdline") -- Snippets source for nvim-cmp
 	use("saadparwaiz1/cmp_luasnip") -- Snippets source for nvim-cmp
 	use("L3MON4D3/LuaSnip") -- Snippets plugin
 	use("onsails/lspkind-nvim") -- pictograms for completion plugin
@@ -38,5 +41,5 @@ return require("packer").startup(function()
 	use("airblade/vim-rooter")
 	use("tpope/vim-commentary")
 	use("JoosepAlviste/nvim-ts-context-commentstring")
-    use("ray-x/lsp_signature.nvim")
+	use("ray-x/lsp_signature.nvim")
 end)
