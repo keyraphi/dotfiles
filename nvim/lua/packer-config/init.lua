@@ -8,9 +8,11 @@ return require("packer").startup(function()
 	use("hrsh7th/cmp-nvim-lsp") -- LSP source for nvim-cmp
 	use("hrsh7th/cmp-buffer") -- complete words in buffer
 	use("hrsh7th/cmp-path") -- complete paths
-	use("hrsh7th/cmp-cmdline") -- Snippets source for nvim-cmp
-	use("saadparwaiz1/cmp_luasnip") -- Snippets source for nvim-cmp
-	use("L3MON4D3/LuaSnip") -- Snippets plugin
+	use("hrsh7th/cmp-cmdline") -- complete command line
+	use("L3MON4D3/LuaSnip") -- Snippets source for nvim-cmp
+	use("saadparwaiz1/cmp_luasnip") -- Snippets plugin
+    use("rafamadriz/friendly-snippets") -- snippet db
+	use({ "tzachar/cmp-tabnine", run = "./install.sh", requires = "hrsh7th/nvim-cmp" }) -- tabnine
 	use("onsails/lspkind-nvim") -- pictograms for completion plugin
 	use("rcarriga/nvim-notify") -- notify plugin
 	use("kyazdani42/nvim-web-devicons")
@@ -27,19 +29,19 @@ return require("packer").startup(function()
 		"nvim-telescope/telescope.nvim",
 		requires = { { "nvim-lua/plenary.nvim" } },
 	})
-	use("williamboman/nvim-lsp-installer")
-	use("jose-elias-alvarez/null-ls.nvim")
-	use("sunjon/shade.nvim")
-	use("psliwka/vim-smoothie")
+	use("williamboman/nvim-lsp-installer")  -- install lsps via :LspInstallInfo
+	use("jose-elias-alvarez/null-ls.nvim")  -- formatting/diagnostics/actions added to lsp
+	use("sunjon/shade.nvim")  -- shade inactive windows slightly (strg+up/down)
+	use("psliwka/vim-smoothie")  -- smooth scroll 
 	use("tpope/vim-sensible")
 	use("tpope/vim-unimpaired")
 	use("tpope/vim-surround") -- surround stuff or remove surrounding stuff
 	use("tpope/vim-fugitive") -- git plugin
 	use("tpope/vim-repeat") -- make things like surround repeatable via "."
 	use("tommcdo/vim-lion") -- alignment via 'gl<motion><character>'
-	use("unblevable/quick-scope") -- highlight convenient targets for 't' and 'f'
-	use("airblade/vim-rooter")
+	use("airblade/vim-rooter")  -- automatically set root directory
 	use("tpope/vim-commentary")
-	use("JoosepAlviste/nvim-ts-context-commentstring")
-	use("ray-x/lsp_signature.nvim")
+	use("JoosepAlviste/nvim-ts-context-commentstring") -- comment stuff out via gc
+	use("ray-x/lsp_signature.nvim")  -- show function signature in completion window
+    use("ggandor/lightspeed.nvim") -- fast navigation with s or S
 end)
