@@ -40,7 +40,7 @@ return require("packer").startup(function()
     use("lewis6991/gitsigns.nvim") -- indicate which lines have changed since commit
 	use("tpope/vim-repeat") -- make things like surround repeatable via "."
 	use("tommcdo/vim-lion") -- alignment via 'gl<motion><character>'
-	use("airblade/vim-rooter")  -- automatically set root directory
+	use("jedi2610/nvim-rooter.lua")  -- automatically set root directory
 	use("tpope/vim-commentary")
 	use("JoosepAlviste/nvim-ts-context-commentstring") -- comment stuff out via gc
 	use("ray-x/lsp_signature.nvim")  -- show function signature in completion window
