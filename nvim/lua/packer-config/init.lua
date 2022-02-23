@@ -46,4 +46,5 @@ return require("packer").startup(function()
 	use("ray-x/lsp_signature.nvim")  -- show function signature in completion window
     use("ggandor/lightspeed.nvim") -- fast navigation with s or S
     use("lervag/vimtex") -- latex stuff
+    use("lukas-reineke/indent-blankline.nvim")  -- Show indent level
 end)
