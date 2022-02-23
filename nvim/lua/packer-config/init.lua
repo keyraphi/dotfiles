@@ -37,6 +37,7 @@ return require("packer").startup(function()
 	use("tpope/vim-unimpaired")
 	use("tpope/vim-surround") -- surround stuff or remove surrounding stuff
 	use("tpope/vim-fugitive") -- git plugin
+    use("lewis6991/gitsigns.nvim") -- indicate which lines have changed since commit
 	use("tpope/vim-repeat") -- make things like surround repeatable via "."
 	use("tommcdo/vim-lion") -- alignment via 'gl<motion><character>'
 	use("airblade/vim-rooter")  -- automatically set root directory
@@ -44,4 +45,5 @@ return require("packer").startup(function()
 	use("JoosepAlviste/nvim-ts-context-commentstring") -- comment stuff out via gc
 	use("ray-x/lsp_signature.nvim")  -- show function signature in completion window
     use("ggandor/lightspeed.nvim") -- fast navigation with s or S
+    use("lervag/vimtex") -- latex stuff
 end)
