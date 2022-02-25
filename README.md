@@ -45,6 +45,10 @@ ln -s /path/to/this/tmux-cssh ~/.tmux-cssh
 ln -s /path/to/this/tmux ~/.tmux
 ```
 I use the [tmux plugin manager](https://github.com/tmux-plugins/tpm).
-You have to install it yourself.
+Which is included in the `.tmux` directory.
 
-Start tmux and install plugins via `<leader>+I`(capital i).
+For tmux-cssh install clone the [tmux-cssh](https://github.com/peikk0/tmux-cssh) repository and add it to your `$PATH` variable.
+
+Start tmux and install plugins via `<leader>+I`(capital i). It first looks like nothing is happening... give it 30sec.
+
+I assume you use `zsh` as shell. If you prefere bash remove the corresponding line in `.tmux.conf`.
