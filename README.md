@@ -42,7 +42,7 @@ Link `tmux.conf`, `tmux-cssh` and `tmux` to `~/.tmux.conf`, `~/.tmux-cssh` and
 ```bash
 ln -s /path/to/this/tmux.conf ~/.tmux.conf
 ln -s /path/to/this/tmux-cssh ~/.tmux-cssh
-ln -s /path/to/this/tmux /.tmux
+ln -s /path/to/this/tmux ~/.tmux
 ```
 I use the [tmux plugin manager](https://github.com/tmux-plugins/tpm).
 You have to install it yourself.
