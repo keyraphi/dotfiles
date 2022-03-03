@@ -54,6 +54,7 @@ cmp.setup({
   { name = "nvim_lsp" },
   { name = "luasnip" },
   { name = "path" },
+  { name = "calc" },
   { name = "cmp_tabnine" },
   { name = "buffer" },
   -- { name = "cmdline" },

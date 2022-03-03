@@ -1,5 +1,6 @@
 local set = vim.opt
 vim.notify = require("notify")
+HOME = os.getenv("HOME")
 -------------------------------------
 -- General settings
 -------------------------------------
@@ -32,7 +33,7 @@ set.clipboard = 'unnamedplus'
 set.confirm = true
 set.exrc = true
 set.backup = true
-set.backupdir = '~/.local/share/nvim/backup//'
+set.backupdir = HOME .. "/.local/share/nvim/backup//"
 set.updatetime = 300
 set.redrawtime = 10000
 set.cursorline = true

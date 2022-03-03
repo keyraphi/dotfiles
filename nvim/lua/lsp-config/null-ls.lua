@@ -17,6 +17,7 @@ local sources = {
 	null_ls.builtins.formatting.prettierd,
 	null_ls.builtins.diagnostics.write_good,
 	null_ls.builtins.diagnostics.gitlint,
+	null_ls.builtins.diagnostics.pylint.with({ extra_args = {"--generated-members=numpy.* ,torch.*"} }),
 }
 
 null_ls.setup({

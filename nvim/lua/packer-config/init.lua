@@ -9,6 +9,7 @@ return require("packer").startup(function()
 	use("hrsh7th/cmp-buffer") -- complete words in buffer
 	use("hrsh7th/cmp-path") -- complete paths
 	use("hrsh7th/cmp-cmdline") -- complete command line
+    use("hrsh7th/cmp-calc")  -- complete calculations on '='
 	use("L3MON4D3/LuaSnip") -- Snippets source for nvim-cmp
 	use("saadparwaiz1/cmp_luasnip") -- Snippets plugin
     use("rafamadriz/friendly-snippets") -- snippet db
