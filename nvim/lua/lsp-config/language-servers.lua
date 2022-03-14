@@ -39,7 +39,7 @@ local servers = {
 	"pyright",
 	"jsonls",
 	"yamlls",
-	"ccls",
+	"clangd",
 	"dockerls",
 	"elm",
 	"gopls",

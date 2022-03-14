@@ -3,7 +3,7 @@ local null_ls = require("null-ls")
 local sources = {
 	null_ls.builtins.formatting.black.with({ extra_args = { "--fast" } }),
 	null_ls.builtins.formatting.elm_format,
-	null_ls.builtins.formatting.clang_format,
+	-- null_ls.builtins.formatting.clang_format,
 	null_ls.builtins.formatting.cmake_format,
 	null_ls.builtins.formatting.codespell,
 	null_ls.builtins.formatting.djhtml,
