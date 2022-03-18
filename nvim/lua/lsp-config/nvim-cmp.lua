@@ -57,7 +57,7 @@ cmp.setup({
   { name = "calc" },
   { name = "cmp_tabnine" },
   { name = "buffer" },
-  -- { name = "cmdline" },
+  { name = "nvim_lsp_signature_help" },
  },
  formatting = {
   format = lspkind.cmp_format({

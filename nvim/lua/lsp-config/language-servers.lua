@@ -23,12 +23,12 @@ local on_attach = function(client, bufnr)
 	vim.api.nvim_buf_set_keymap(bufnr, "n", "<leader>ca", "<cmd>lua vim.lsp.buf.code_action()<CR>", opts)
 	vim.api.nvim_buf_set_keymap(bufnr, "n", "gr", "<cmd>lua vim.lsp.buf.references()<CR>", opts)
 	vim.cmd([[ command! Format execute 'lua vim.lsp.buf.formatting()' ]])
-	require("lsp_signature").on_attach({  -- signature hints
-		bind = true, -- This is mandatory, otherwise border config won't get registered.
-		handler_opts = {
-			border = "rounded",
-		},
-	}, bufnr)
+	-- require("lsp_signature").on_attach({  -- signature hints
+	-- 	bind = true, -- This is mandatory, otherwise border config won't get registered.
+	-- 	handler_opts = {
+	-- 		border = "rounded",
+	-- 	},
+	-- }, bufnr)
 end
 
 local lsp_installer = require("nvim-lsp-installer")
