@@ -10,6 +10,7 @@ return require("packer").startup(function()
 	use("hrsh7th/cmp-path") -- complete paths
 	use("hrsh7th/cmp-cmdline") -- complete command line
     use("hrsh7th/cmp-calc")  -- complete calculations on '='
+    use("hrsh7th/cmp-nvim-lsp-signature-help")  -- signature completion
 	use("L3MON4D3/LuaSnip") -- Snippets source for nvim-cmp
 	use("saadparwaiz1/cmp_luasnip") -- Snippets plugin
     use("rafamadriz/friendly-snippets") -- snippet db
@@ -44,7 +45,7 @@ return require("packer").startup(function()
 	use("jedi2610/nvim-rooter.lua")  -- automatically set root directory
 	use("tpope/vim-commentary")
 	use("JoosepAlviste/nvim-ts-context-commentstring") -- comment stuff out via gc
-	use("ray-x/lsp_signature.nvim")  -- show function signature in completion window
+	-- use("ray-x/lsp_signature.nvim")  -- show function signature in completion window
     use("ggandor/lightspeed.nvim") -- fast navigation with s or S
     use("lervag/vimtex") -- latex stuff
     use("lukas-reineke/indent-blankline.nvim")  -- Show indent levels
