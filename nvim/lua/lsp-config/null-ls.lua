@@ -15,9 +15,12 @@ local sources = {
 	null_ls.builtins.formatting.markdownlint,
 	null_ls.builtins.formatting.pg_format,
 	null_ls.builtins.formatting.prettierd,
+	null_ls.builtins.formatting.shfmt,
 	null_ls.builtins.diagnostics.write_good,
 	null_ls.builtins.diagnostics.gitlint,
-	null_ls.builtins.diagnostics.pylint.with({ extra_args = {"--generated-members=numpy.* ,torch.*"} }),
+	null_ls.builtins.diagnostics.pylint.with({
+		extra_args = { "--generated-members=numpy.* ,torch.*,zmq.PUSH,zmq.PULL,zmq.NOBLOCK" },
+	}),
 }
 
 null_ls.setup({
