@@ -3,8 +3,8 @@ return require("packer").startup(function()
     use("wbthomason/packer.nvim")
     use("EdenEast/nightfox.nvim") -- colorscheme
     use("kyazdani42/nvim-tree.lua") -- file editor
-    use("williamboman/mason.nvim") -- install lsps via :LspInstallInfo
-    use("williamboman/mason-lspconfig.nvim")
+    use("williamboman/mason.nvim") -- manage lsp servers and formaters and stuff
+    use("williamboman/mason-lspconfig.nvim")  -- install lsps via LspInstall
     use("neovim/nvim-lspconfig") -- Collection of configurations for the built-in LSP client
     use("hrsh7th/nvim-cmp") -- Autocompletion plugin
     use("hrsh7th/cmp-nvim-lsp") -- LSP source for nvim-cmp
