@@ -3,6 +3,8 @@ return require("packer").startup(function()
     use("wbthomason/packer.nvim")
     use("EdenEast/nightfox.nvim") -- colorscheme
     use("kyazdani42/nvim-tree.lua") -- file editor
+    use("williamboman/mason.nvim") -- install lsps via :LspInstallInfo
+    use("williamboman/mason-lspconfig.nvim")
     use("neovim/nvim-lspconfig") -- Collection of configurations for the built-in LSP client
     use("hrsh7th/nvim-cmp") -- Autocompletion plugin
     use("hrsh7th/cmp-nvim-lsp") -- LSP source for nvim-cmp
@@ -31,9 +33,7 @@ return require("packer").startup(function()
         "nvim-telescope/telescope.nvim", -- telescope
         requires = { { "nvim-lua/plenary.nvim" } },
     })
-    use("williamboman/nvim-lsp-installer") -- install lsps via :LspInstallInfo
     use("jose-elias-alvarez/null-ls.nvim") -- formatting/diagnostics/actions added to lsp
-    use("sunjon/shade.nvim") -- shade inactive windows slightly (strg+up/down)
     use("psliwka/vim-smoothie") -- smooth scroll
     use("tpope/vim-sensible")
     use("tpope/vim-unimpaired")
