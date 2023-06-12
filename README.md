@@ -32,7 +32,7 @@ ln -s /path/to/this/kitty ~/.config/kitty
 ```
 
 You need a [NerdFont](https://github.com/ryanoasis/nerd-fonts).
-I use Hack. If you want to use another font you have to change it in the
+I use Hack, which you can get from [the release Page on GitHub](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack). If you want to use another font you have to change it in the
 configuration.
 
 ## Tmux
