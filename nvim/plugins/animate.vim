@@ -1,1 +1,0 @@
-Plug 'camspiers/animate.vim'

@@ -1,1 +1,0 @@
-Plug 'PieterjanMontens/vim-pipenv'
